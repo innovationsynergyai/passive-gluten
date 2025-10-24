@@ -1,0 +1,10 @@
+
+User-agent: *
+Allow: /
+
+# Allow all bots to access the entire site
+# This maximizes indexing for passive traffic generation
+
+# Sitemap location
+Sitemap: https://www.wehategluten.com/sitemap.xml
+    

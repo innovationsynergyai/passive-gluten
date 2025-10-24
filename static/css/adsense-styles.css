@@ -1,0 +1,49 @@
+/* AdSense Styles */
+.ad-container {
+    text-align: center;
+    margin: 20px auto;
+    clear: both;
+    overflow: hidden;
+}
+
+.ad-label {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.ad-leaderboard {
+    max-width: 728px;
+    width: 100%;
+}
+
+.ad-rectangle {
+    max-width: 336px;
+    width: 100%;
+}
+
+.ad-in-content {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.ad-sticky-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 999;
+    padding: 5px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .ad-sticky-bottom {
+        display: block;
+    }
+}
